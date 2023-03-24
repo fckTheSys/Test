@@ -1,0 +1,58 @@
+/*stroke="#A1A1A1" stroke-width="15" stroke-miterlimit="10"*/
+body {
+ background-color: blueviolet;
+}
+
+.letter {
+    fill:none; 
+    stroke: #3c3c3b; 
+    stroke-miterlimit: 10; 
+    stroke-width: 14px;
+    animation: lineText 2s alternate steps(1, end) infinite;
+}
+
+  .L_1 {
+    animation-delay: 0;
+  }
+  
+  .I_1 {
+    animation-delay: 0.1s;
+  }
+  
+  .F {
+    animation-delay: 0.2s;
+  }
+  
+  .E_1 {
+    animation-delay: 0.3s;
+  }
+
+  .L_2 {
+    animation-delay: 0.4s;
+  }
+
+  .I_2 {
+    animation-delay: 0.5s;
+  }
+
+  .N {
+    animation-delay: 0.6s;
+  }
+
+  .E_2 {
+    animation-delay: 0.7s;
+  }
+  
+  @keyframes lineText {
+    20%,
+    100% {
+        stroke-width: 4px;
+    }
+  
+    0% {
+        stroke-width: 14px;
+    }
+    10% {
+        stroke-width: 4px;
+    }
+  }
